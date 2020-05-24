@@ -48,7 +48,7 @@ steps:
   inputs:
     command: custom
     custom: tool
-    arguments: 'install --global dotnet-reportgenerator-globaltool'    
+    arguments: 'install dotnet-reportgenerator-globaltool'    
 
 - task: DotNetCoreCLI@2
   displayName: 'Restore project dependencies'
