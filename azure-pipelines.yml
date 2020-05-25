@@ -8,7 +8,7 @@ trigger:
     exclude:
     - docs/*  # exclude the docs folder
 
-pool: 'private'
+pool: 'windows'
 
 variables:
   buildConfiguration: 'Release'
